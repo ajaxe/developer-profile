@@ -1,0 +1,56 @@
+{
+  "personalInfo": {
+    "name": "Ajay Sharma",
+    "title": "Alkamist | Technical Lead | Cloud Practitioner",
+    "location": "Cary, North Carolina, United States",
+    "links": {
+      "email": "mailto:ajaysharma2022@duck.com",
+      "linkedin": "https://www.linkedin.com/in/asharma-nc",
+      "github": "https://github.com/ajaxe"
+    }
+  },
+  "summary": "A seasoned technical lead and versatile software engineer with deep expertise in the .NET ecosystem. I specialize in architecting efficient, scalable applications using AWS serverless compute, backed by hands-on experience in modern DevOps and CI/CD practices.",
+  "topSkills": [
+    "C#", "ASP.NET Core", "AWS", "Serverless", "DevOps", "CI/CD", "REST API", "Code Review", "EF Core", "Postgres"
+  ],
+  "education": [
+    {
+      "institution": "North Carolina State University",
+      "degree": "MS, Computer Engineering"
+    },
+    {
+      "institution": "University of Mumbai",
+      "degree": "B.E., Electronics & Telecommunication"
+    }
+  ],
+  "experience": [
+    {
+      "date": "September 2024 - Present",
+      "title": "Staff Software Engineer",
+      "company": "Alkami Technology",
+      "description": "",
+      "stack": []
+    },
+    {
+      "date": "July 2020 - September 2024",
+      "title": "Backend Technical Lead",
+      "company": "CosmoLex",
+      "description": "As technical lead, I performed business analysis, broke down complex requirements, and guided daily development. I championed AWS service adoption, improved deployments with CodeDeploy, and implemented cost-effective hosting with ECS Fargate.",
+      "stack": ["C#", ".NET Core", "EF Core", "MSSQL", "Postgres", "AWS"]
+    },
+    {
+      "date": "January 2018 - April 2019",
+      "title": "Senior Software Engineer",
+      "company": "Avalara",
+      "description": "Developed ASP.NET Core applications and implemented RESTful API services using AWS Lambda & API Gateway. Streamlined the team's CI/CD process, empowering team ownership of the pipeline.",
+      "stack": ["C#", "ASP.NET Core", "EF Core", "Node.js", "MSSQL", "Postgres", "AWS", "Serverless"]
+    },
+    {
+      "date": "May 2013 - December 2017",
+      "title": "Senior Applications Engineer",
+      "company": "Oracle",
+      "description": "Full-stack development of a distributed self-service application for Clinical trials. Implemented REST-style Web API services and designed SPA UI using Knockout.js and Oracle JET.",
+      "stack": ["C#", "ASP.NET", "Web API 2", "Knockout.js", "Oracle JET", "Entity Framework", "Oracle 11g"]
+    }
+  ]
+}

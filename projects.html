@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajay Sharma - Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-gray-200">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+      <header class="flex justify-between items-center mb-8">
+        <h1 class="text-2xl font-bold text-white">Ajay Sharma</h1>
+        <nav>
+          <a
+            href="./index.html"
+            class="px-4 py-2 rounded-lg text-gray-300 transition-all duration-300 hover:bg-white/10 hover:text-white"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="px-4 py-2 rounded-lg text-white font-medium bg-white/10 transition-all duration-300"
+            >Projects</a
+          >
+        </nav>
+      </header>
+
+      <main>
+        <h2 class="text-4xl font-bold text-white mb-8 text-center">
+          My Projects
+        </h2>
+        <div
+          id="projects-grid"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Project cards will be injected here by JavaScript -->
+        </div>
+      </main>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch("projects.json")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Network response was not ok " + response.statusText
+              );
+            }
+            return response.json();
+          })
+          .then((projects) => {
+            const projectsGrid = document.getElementById("projects-grid");
+            if (!projectsGrid) return;
+
+            projects.forEach((project) => {
+              // Create the tags HTML
+              const tagsHtml = project.tags
+                .map((tag) => `<span class="tech-stack-tag">${tag}</span>`)
+                .join("");
+
+              // Create the project card HTML
+              const projectCardHtml = `
+                            <a href="${project.url}" target="_blank" class="block project-card">
+                                <div class="glass-card p-6 h-full flex flex-col">
+                                    <h3 class="text-xl font-semibold text-white mb-2">${project.title}</h3>
+                                    <p class="text-gray-300 text-sm leading-relaxed flex-grow">${project.description}</p>
+                                    <div class="flex flex-wrap gap-2 mt-4">
+                                        ${tagsHtml}
+                                    </div>
+                                </div>
+                            </a>
+                        `;
+
+              // Append the new card to the grid
+              projectsGrid.innerHTML += projectCardHtml;
+            });
+          })
+          .catch((error) => {
+            console.error(
+              "There has been a problem with your fetch operation:",
+              error
+            );
+            const projectsGrid = document.getElementById("projects-grid");
+            if (projectsGrid) {
+              projectsGrid.innerHTML =
+                '<p class="text-center col-span-full">Could not load projects. Please make sure the projects.json file is available.</p>';
+            }
+          });
+      });
+    </script>
+  </body>
+</html>

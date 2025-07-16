@@ -1,0 +1,51 @@
+/* Shared Styles for the Portfolio Site */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=2070&auto=format&fit=crop")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+/* Shared Styles for the Portfolio Site */
+/* body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2071&auto=format&fit=crop")
+    no-repeat center center fixed;
+  background-size: cover;
+} */
+
+.glass-card {
+  background: rgba(17, 25, 40, 0.6); /* Increased opacity for better contrast */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Made border slightly more visible */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.skill-tag {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.skill-tag:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+.tech-stack-tag {
+  background: rgba(30, 180, 180, 0.15);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #99f6e4; /* A lighter teal */
+}
+
+/* Additional styles for project cards on projects.html */
+.project-card:hover .glass-card {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}

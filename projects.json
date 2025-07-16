@@ -1,0 +1,56 @@
+[
+  {
+    "title": "illuminate-ui",
+    "description": "A UI component library designed to work with the Illuminate backend framework. It provides a set of reusable components to build user interfaces for applications that use Illuminate.",
+    "url": "https://github.com/ajaxe/illuminate-ui",
+    "tags": ["JavaScript", "Chrome extension"]
+  },
+  {
+    "title": "route53updater",
+    "description": "A command-line tool that updates an AWS Route 53 DNS record with the public IP address of the machine it's running on. This is useful for dynamic DNS updates for home servers or other devices with changing IP addresses.",
+    "url": "https://github.com/ajaxe/route53updater",
+    "tags": ["Go", "AWS Route53", "CLI"]
+  },
+  {
+    "title": "apogeedev.identityprovider",
+    "description": "An OpenID Connect (OIDC) compliant identity provider built with ASP.NET Core. It is designed to handle user authentication and provide identity services for other applications.",
+    "url": "https://github.com/ajaxe/apogeedev.identityprovider",
+    "tags": ["C#", "ASP.NET Core", "OIDC", "Authentication"]
+  },
+  {
+    "title": "hook-testing",
+    "description": "A simple web application for testing webhooks. It allows you to receive and inspect webhook payloads sent from other services, which is useful for development and debugging.",
+    "url": "https://github.com/ajaxe/hook-testing",
+    "tags": ["ASP.NET Core", "Webhook Testing", "Development"]
+  },
+  {
+    "title": "apogeedev.myroutetracker",
+    "description": "A web application for tracking and visualizing personal routes, likely for activities like running or cycling. It provides a way to record and display GPS track data.",
+    "url": "https://github.com/ajaxe/apogeedev.myroutetracker",
+    "tags": ["C#", "ASP.NET Core"]
+  },
+  {
+    "title": "private-hosting",
+    "description": "A collection of Docker Compose configurations for self-hosting various services. It primarily functions as a reverse proxy and an observability stack, featuring services like Traefik, Grafana, OpenTelemetry, Jaeger, and Prometheus for monitoring and distributed tracing.",
+    "url": "https://github.com/ajaxe/private-hosting",
+    "tags": ["Docker Compose", "Self-Hosting"]
+  },
+  {
+    "title": "mc-configurator",
+    "description": "A command-line tool designed to simplify the management of Minecraft Bedrock servers in Docker. It dynamically configures the `server.properties` file by reading environment variables, which allows for easy version control and replication of server setups directly from a `docker-compose.yml` file.",
+    "url": "https://github.com/ajaxe/mc-configurator",
+    "tags": ["Go", "Docker", "CLI"]
+  },
+  {
+    "title": "traefik-auth-manager",
+    "description": "A self-hosted management service for Traefik's forward authentication middleware. It provides a simple web UI to dynamically add or remove authorized users, eliminating the need to manually edit configuration files and restart Traefik when updating user access. The application is built with Go, featuring a Progressive Web App (PWA) frontend.",
+    "url": "https://github.com/ajaxe/traefik-auth-manager",
+    "tags": ["Go", "Traefik", "Docker", "go-app (PWA)"]
+  },
+  {
+    "title": "mc-manager",
+    "description": "A web-based management tool for Minecraft Bedrock dedicated servers running in Docker. It provides a user-friendly web interface to configure, launch, and switch between different Minecraft worlds.",
+    "url": "https://github.com/ajaxe/mc-manager",
+    "tags": ["Go", "go-app (PWA)", "Docker", "Minecraft"]
+  }
+]
