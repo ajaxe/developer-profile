@@ -1,3 +1,4 @@
+@import "tailwindcss";
 /* Shared Styles for the Portfolio Site */
 
 body {
@@ -48,4 +49,8 @@ body {
 .project-card:hover .glass-card {
   transform: translateY(-5px);
   box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+.content-col section {
+  min-height: 170px;
 }
