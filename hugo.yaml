@@ -187,80 +187,86 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Alkami Technology"
+        companyUrl: "https://www.alkami.com/"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "Staff Software Engineer"
+            date: "September 2024 - Present"
+            content: "I am remotely working as a staff software engineer at [Alkami Technology](https://www.alkami.com/). I am currently working on a Treasurey Management features for our online banking platform."
             info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+              content: Working as a staff software engineer
+            #featuredItems:
+            #  fontAwesomeIcons:
+            #    - icon: fa-brands fa-react
+            #      url: https://react.dev/
+            #      tooltip: Example tooltip content
+            #    - icon: fab fa-x-twitter
+            #      url: https://example.com
+            # tooltip: Example tooltip content
+            #customIcons:
+            #  - icon: /fav.png
+            #    url: "https://example.com"
+            #    tooltip: Example tooltip content
+          #- name: "Software Developer"
+          #  date: "Jan 2022 - Dec 2023"
+          #  content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "Profitsolv"
+        companyUrl: "https://www.profitsolv.com/"
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
+          - name: "Backend Technical Lead"
+            date: "April 2019 - September 2024"
             info:
-              content: I worked as a software developer for more than one year in Amazon.
+              content: I worked as a backend technical lead for 5 years in Profitsolv.
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              As technical lead, I performed business analysis, broke down complex requirements, and guided daily development. I championed AWS service adoption, improved deployments with CodeDeploy, and implemented cost-effective hosting with ECS Fargate.
 
               - Lead backend developer for a product.
-              - Created a frontend design for a product.
+              - Improved deployments with CodeDeploy.
+              - Implemented cost-effective hosting with ECS Fargate.
 
-      - company: "Apple"
-        companyUrl: "https://example.com"
+              **Tech stack:**
+              - C# 
+              - .NET Core
+              - EF Core
+              - MSSQL
+              - Postgres
+              - AWS
+
+      - company: "Avalara"
+        companyUrl: "https://www.avalara.com/"
         jobs:
-          - name: "Junior Software Developer"
-            date: "Jan 2020 - Aug 2020"
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
+          - name: "Senior Software Engineer"
+            date: "Jan 2018 - Dec 2019"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              Developed ASP.NET Core applications and implemented RESTful API services using AWS Lambda & API Gateway. Streamlined the team's CI/CD process, empowering team ownership of the pipeline.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
+              **Tech stack:**
+              - C# .NET
+              - ASP.NET Core
+              - EF Core
+              - Node.js
+              - MSSQL
+              - Postgres
+              - AWS
+              - Serverless
 
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+      - company: "Oracle"
+        companyUrl: "https://www.oracle.com/"
         jobs:
-          - name: "UI/UX Designer"
-            date: "June 2017 - Nov 2019"
+          - name: "Senior Applications Engineer"
+            date: "May 2013 - December 2017"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              Full-stack development of a distributed self-service application for Clinical trials. Implemented REST-style Web API services and designed SPA UI using Knockout.js and Oracle JET.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-          - name: "Product Designer"
-            date: "Feb 2016 - Mar 2017"
-            content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+              **Tech stack:**
+              - C# .NET
+              - ASP.NET
+              - Web API 2
+              - Knockout.js
+              - Oracle JET
+              - Entity Framework
+              - Oracle 11g
 
   # Education
   education:
