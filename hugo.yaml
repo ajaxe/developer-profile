@@ -14,9 +14,9 @@ outputs:
 
 enableRobotsTXT: true
 
-#services:
-#googleAnalytics:
-#id: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    id: G-QVC9GKDXG0
 #disqus:
 #shortname: your-disqus-shortname
 
@@ -28,35 +28,35 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#    - identifier: gallery
+#      name: Gallery
+#      title: Blog posts
+#      url: /gallery
+#      weight: 2
+#Dropdown menu
+# - identifier: dropdown
+#   title: Example dropdown menu
+#   name: Dropdown
+#   weight: 3
+# - identifier: dropdown1
+#   title: example dropdown 1
+#   name: example 1
+#   url: /#
+#   parent: dropdown
+#   weight: 1
+# - identifier: dropdown2
+#   title: example dropdown 2
+#   name: example 2
+#   url: /#
+#   parent: dropdown
+#   weight: 2
 
 params:
   title: "Ajay Sharma"
@@ -136,11 +136,11 @@ params:
     intro: "Hi, my name is"
     title: "Ajay"
     subtitle: "I build things for the web"
-    content: "A seasoned technical lead and versatile software engineer with deep expertise in the .NET ecosystem. I specialize in architecting efficient, scalable applications using AWS serverless compute, backed by hands-on experience in modern DevOps and CI/CD practices."
-    image: /images/hero.svg
+    content: "**Building Scalable .NET Solutions for the Cloud.** I architect high-performance, serverless applications on AWS, blending deep technical leadership with modern DevOps practices to turn complex requirements into efficient digital products."
+    image: /images/hero.png
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: false
       name: "Resume"
@@ -149,15 +149,15 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-mail-to
-          url: mailto:ajay.sharma@ajaysharma.com
+        - icon: fas fa-envelope
+          url: mailto:ajaysharma2022@duck.com
         - icon: fab fa-github
           url: https://github.com/ajaxe
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/asharma-nc
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
@@ -165,19 +165,22 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      A seasoned technical lead and versatile software engineer with deep expertise in the .NET ecosystem. I specialize in architecting efficient, scalable applications using AWS serverless compute, backed by hands-on experience in modern DevOps and CI/CD practices.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "C#"
+        - "ASP.NET Core"
+        - "AWS"
+        - "Serverless"
+        - "DevOps"
+        - "CI/CD"
+        - "REST API"
+        - "Postgres"
+        - "Node js"
+        - "Go"
+        - "Docker"
 
   # Experience
   experience:
@@ -265,48 +268,48 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "MS, Computer Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          name: "NC State University"
+          #url: "https://example.org"
+        #date: "2013 - 2015"
+        #GPA: "3.8 out of 5.0"
+        #content: |-
+        #  Extracurricular Activities
+        #    - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #    - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "B.E., Electronics & Telecommunication"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          name: "University of Mumbai"
+          #url: "https://example.org"
+        #date: "2009 - 2013"
+        #GPA: "3.9 out of 5.0"
+        #content: |-
+        #  I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #    - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #    - Face mask detection using a single convolutional neural network.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        #Extracurricular Activities
+        #    - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #    - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        #featuredLink:
+        #  enable: true
+        #  name: "My academic record"
+        #  url: "https://example.com"
+      #- title: "High School"
+      #  school:
+      #    name: "Thomas Jefferson High School for Science and Technology."
+      #    #url: "https://example.org"
+      #  #GPA: "4.2 out of 5.0"
+      #  #featuredLink:
+      #  enable: true
+      #  url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
-    items:
+    tems:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
@@ -329,50 +332,111 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Illuminate
+        content: "Chrome Extension: Provide a way for an avid reader to bookmark phrases across the Internet."
+        image: /images/projects/illuminate-ext.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Illuminate
+          link: https://chrome.google.com/webstore/detail/illuminate/fehdmohlaoagebcpgpmhjfbhglnfednk
         badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "Chrome Extension"
           - "Javascript"
+          - "Vue.js"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+          #  url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Apogee-dev IdP
+        content: "An OpenID Connect (OIDC) compliant identity provider built with ASP.NET Core. It is designed to handle user authentication and provide identity services for other applications."
+        image: /images/projects/apogee-dev-idp.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Self-hosted Idp
+          link: https://idsrv-1.apogee-dev.com/
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "C#"
+          - "ASP.NET Core"
+          - "OIDC"
+          - "Authentication"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/ajaxe/apogeedev.identityprovider
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Home Server Setup
+        content: "A collection of Docker Compose configurations for self-hosting various services. It primarily functions as a reverse proxy and an observability stack, featuring services like Traefik, Grafana, OpenTelemetry, Jaeger, and Prometheus for monitoring and distributed tracing."
+        image: /images/projects/home-server-setup.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Docker Compose"
+          - "Self-Hosting"
+          - "Observability"
+          - "Monitoring"
+          - "Distributed Tracing"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/ajaxe/private-hosting
+
+      - title: "Traefik: Forward Auth Manager"
+        content: "A self-hosted management service for Traefik's forward authentication middleware. It provides a simple web UI to dynamically add or remove authorized users, eliminating the need to manually edit configuration files and restart Traefik when updating user access. The application is built with Go, featuring a Progressive Web App (PWA) frontend."
+        image: /images/projects/traefik-auth-manager.png
+        badges:
+          - "Go"
+          - "Traefik"
+          - "Docker"
+          - "go-app (PWA)"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/traefik-auth-manager
+
+      - title: Route53 Updater
+        content: "A command-line tool that updates an AWS Route 53 DNS record with the public IP address of the machine it's running on. This is useful for dynamic DNS updates for home servers or other devices with changing IP addresses."
+        image: /images/projects/route53-updater-app.png
+        badges:
+          - "Go"
+          - "AWS Route53"
+          - "CLI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/route53updater
+
+      - title: Webhook Test Tool
+        content: "A simple web application for testing webhooks. It allows you to receive and inspect webhook payloads sent from other services, which is useful for development and debugging."
+        image: /images/projects/webhook-tester-app.png
+        featured:
+          name: Webhook Test Tool
+          link: https://offsite.apogee-dev.com/webhook-tester/
+        badges:
+          - "ASP.NET Core"
+          - "Webhook Testing"
+          - "Development"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/hook-testing
+
+      - title: MC Server Configurator
+        content: "A command-line tool designed to simplify the management of Minecraft Bedrock servers in Docker. It dynamically configures the `server.properties` file by reading environment variables, which allows for easy version control and replication of server setups directly from a `docker-compose.yml` file."
+        image: /images/projects/mc-config-app.png
+        badges:
+          - "Go"
+          - "Docker"
+          - "CLI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/mc-configurator
+
+      - title: Mincraft Server Manager
+        content: "A web-based management tool for Minecraft Bedrock dedicated servers running in Docker. It provides a user-friendly web interface to configure, launch, and switch between different Minecraft worlds."
+        image: /images/projects/mc-manager-app.png
+        badges:
+          - "Go"
+          - "go-app (PWA)"
+          - "Docker"
+          - "Minecraft"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/mc-manager
 
   #Contact
   contact:
@@ -380,7 +444,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ajaysharma2022@duck.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -393,14 +457,14 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/ajaxe
+      linkedin: https://linkedin.com/in/asharma-nc
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
