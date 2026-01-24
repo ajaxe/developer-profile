@@ -10,6 +10,7 @@ tags:
   - example
 image: /images/post.jpg
 description: ""
+socialShare: false
 toc:
 ---
 
