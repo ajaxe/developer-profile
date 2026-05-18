@@ -165,7 +165,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      A seasoned technical lead and versatile software engineer with deep expertise in the .NET ecosystem. I specialize in architecting efficient, scalable applications using AWS serverless compute, backed by hands-on experience in modern DevOps and CI/CD practices.
+      Staff Software Engineer and Architect-Builder with 18 years of experience bridging the gap between complex system design and high-performing, hands-on implementation. Deeply rooted in the .NET ecosystem (C#) with a strong technical affinity for Go and modern DevOps (CodePipeline, Docker). Driven by a "Product Engineer" mindset, thriving with the autonomy to own the full technical lifecycle, drive technical strategy, and integrate next-gen agentic AI workflows to deliver high-impact SaaS products with maximum efficiency.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -192,9 +192,24 @@ params:
         jobs:
           - name: "Staff Software Engineer"
             date: "September 2024 - Present"
-            content: "I am remotely working as a staff software engineer at [Alkami Technology](https://www.alkami.com/). I am currently working on a Treasurey Management features for our online banking platform."
             info:
               content: Working as a staff software engineer
+            content: |
+              * **Decommissioned legacy WCF services**, systematically migrating core workflows to REST API endpoints mapped to clean microservice boundaries.
+              * **Designed an asynchronous payee notification engine** using AWS SQS and Kubernetes, navigating architecture committee reviews with load calculations to optimize K8s replica scaling.
+              * **Standardized multi-service message formats** by adopting the CloudEvents specification, delivering technical blueprints that guided the team through implementation.
+              * **Evaluated legacy notification patterns** via cross-functional discovery, eliminating technical roadblocks upfront to ensure on-time feature delivery.
+              * **Resolved active production issues** and integrated OpenTelemetry tracing and logging to eliminate critical observability blind spots.
+              * **Automated multi-repository release preparation** using custom PowerShell scripts, slashing deployment preparation time by 90% (from 5 hours to 30 minutes).
+              * **Partnered with Product Owners** during quarterly planning to translate product requirements into technical execution roadmaps.
+
+              **Tech stack:**
+              - C# 
+              - .NET Core
+              - EF Core
+              - MSSQL
+              - Postgres
+              - AWS
             #featuredItems:
             #  fontAwesomeIcons:
             #    - icon: fa-brands fa-react
