@@ -459,6 +459,16 @@ params:
           - icon: fab fa-github
             url: https://github.com/ajaxe/mc-manager
 
+      - title: NextDNS URL Manager
+        content: A cross-platform terminal UI application for managing NextDNS application groups with timer functionality and background service support. Define and manage application groups that are disabled in NextDNS. Temporarily enable them using timer functionality.
+        image: /images/projects/nextdns-url-manager.png
+        badges:
+          - "Go"
+          - "Terminal UI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ajaxe/nextdns-url-manager
+
   #Contact
   contact:
     enable: true
