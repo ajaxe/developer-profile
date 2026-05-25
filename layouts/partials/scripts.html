@@ -107,6 +107,29 @@
 {{ if .Store.Get "hasMermaid" }}
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeMermaid()
+    });
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        setTimeout(() => {
+            location.reload();
+        }, 0)
+    })
+    function initializeMermaid() {
+        // 1. Check if the body or html tag has a dark mode class, 
+        // or check localStorage/system preferences
+        const isDarkMode = document.body.className.includes("dark");
+
+        // 2. Initialize mermaid with the correct theme
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: isDarkMode ? 'dark' : 'neutral', // 'neutral' or 'default' works great for light mode
+            sequence: {
+                actorMargin: 50,
+                mirrorActors: false, // Prevents duplicate actor boxes at the bottom
+                useMaxWidth: true
+            }
+        });
+    }
   </script>
 {{ end }}

@@ -129,9 +129,3 @@ To prevent this, ApogeeDev IdP incorporates high-performance observability out o
 ## **Conclusion**
 
 By reclaiming our identity architecture using ASP.NET Core, OpenIddict, and MongoDB, we gained absolute control over our security borders, authentication rules, and user-profile schemas, completely avoiding the SaaS licensing tax.
-
-### **Next Steps & Discussion**
-
-Are you planning to deploy your own identity server or scale an existing infrastructure? Let's discuss in the comments\!
-
-* If you'd like to see a follow-up article on implementing **strict tenant database isolation schemas in MongoDB**, or a deep dive on **configuring Nginx containers for serving our Vue 3 administration SPA**, let me know below\!
