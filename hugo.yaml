@@ -35,11 +35,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-#    - identifier: gallery
-#      name: Gallery
-#      title: Blog posts
-#      url: /gallery
-#      weight: 2
+    - identifier: status-page
+      name: Status Page
+      title: Service status and uptime information
+      url: https://status.apogee-dev.com
+      weight: 2
 #Dropdown menu
 # - identifier: dropdown
 #   title: Example dropdown menu
