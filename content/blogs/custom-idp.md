@@ -1,5 +1,6 @@
 ---
 title: "Sovereign Identity: Building a Custom OIDC Identity Provider with .NET, OpenIddict, and MongoDB"
+description: "An in-depth retrospective and case study on engineering ApogeeDev Identity Provider—a standards-compliant, high-performance OIDC and OAuth 2.0 Identity Provider built on ASP.NET Core, OpenIddict, MongoDB, and managed with Vue 3."
 date: 2026-05-22T12:00:00-04:00
 draft: false
 github_link: "https://github.com/ajaxe/apogeedev.identityprovider"
@@ -17,7 +18,6 @@ categories:
   - Security
   - Software Architecture
 image: /images/blogs/custom_idp_article_banner.png
-description: "An in-depth retrospective and case study on engineering ApogeeDev Identity Provider—a standards-compliant, high-performance OIDC and OAuth 2.0 Identity Provider built on ASP.NET Core, OpenIddict, MongoDB, and managed with Vue 3."
 socialShare: false
 toc: true
 ---
