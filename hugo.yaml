@@ -187,13 +187,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - company: "Labcorp"
+        companyUrl: "https://www.labcorp.com/"
+        jobs:
+          - name: "Senior Developer"
+            date: "August 2026 - Present"
+            info:
+              content: Working as a Senior Software Developer.
+            content: |
+              Developing public API Marketplace for Labcorp services, using Node.js and Golang services.
+              
       - company: "Alkami Technology"
         companyUrl: "https://www.alkami.com/"
         jobs:
           - name: "Staff Software Engineer"
-            date: "September 2024 - Present"
+            date: "September 2024 - May 2026"
             info:
-              content: Working as a staff software engineer
+              content: Worked as a staff software engineer
             content: |
               * **Decommissioned legacy WCF services**, systematically migrating core workflows to REST API endpoints mapped to clean microservice boundaries.
               * **Designed an asynchronous payee notification engine** using AWS SQS and Kubernetes, navigating architecture committee reviews with load calculations to optimize K8s replica scaling.
